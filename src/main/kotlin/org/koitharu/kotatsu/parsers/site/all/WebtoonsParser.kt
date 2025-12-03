@@ -19,7 +19,7 @@ internal abstract class WebtoonsParser(
 	source: MangaParserSource,
 ) : AbstractMangaParser(context, source) {
 
-	override val configKeyDomain = ConfigKey.Domain("webtoons.com")
+	override val configKeyDomain = ConfigKey.Domain("comix.to")
 
 	private val mobileApiDomain = "m.webtoons.com"
 	private val staticDomain = "webtoon-phinf.pstatic.net"
