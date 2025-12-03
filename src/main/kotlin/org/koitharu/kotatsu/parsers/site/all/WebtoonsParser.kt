@@ -21,7 +21,7 @@ internal abstract class WebtoonsParser(
 
 	override val configKeyDomain = ConfigKey.Domain("comix.to")
 
-	private val mobileApiDomain = "m.webtoons.com"
+	private val mobileApiDomain = "m.comix.to"
 	private val staticDomain = "webtoon-phinf.pstatic.net"
 
 	override val availableSortOrders: EnumSet<SortOrder> = EnumSet.of(
