@@ -1,0 +1,7 @@
+{
+  "id": "comix.to",
+  "name": "Comix.to",
+  "version": 1,
+  "sources": ["COMIXTO"],
+  "type": "parser"
+}
